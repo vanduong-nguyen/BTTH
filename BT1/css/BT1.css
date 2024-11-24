@@ -1,0 +1,20 @@
+h1{
+    margin-top: 50px;
+}
+.boVien{
+    margin-top: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px;
+    text-align: left;
+    background-color: lightgray;
+    border-radius: 10px;
+    font-family: 'Rockstar', sans-serif;
+    color: black;
+}
+body{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Rockstar', sans-serif;
+    color: grey;
+}

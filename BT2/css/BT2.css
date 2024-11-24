@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: lightgray;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: whitesmoke;
+}
+td, tr, th{
+    border: 1px solid black;
+    padding: 8px;
+}
+h1{
+    font-family: Arial;
+    font-weight: lighter;
+}

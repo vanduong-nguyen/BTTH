@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập thực hành 2</title>
+    <link rel="stylesheet" href="css/BT2.css">
+    <script src="js/BT2.js"></script>
+</head>
+<body>
+  <h1>TÍNH DIỆN TÍCH </h1>
+  <table align="center">
+    <tr>
+      <th colspan="2">Hình chữ nhật</th>
+    </tr>
+    <tr>
+      <td>Chiều dài</td>
+      <td><input type="number" id="chieu_dai_hcn" placeholder="Nhập chiều dài"></td>
+    </tr>
+    <tr>
+      <td>Chiều rộng</td>
+      <td><input type="number" id="chieu_rong_hcn" placeholder="Nhập chiều rộng"></td>
+    </tr>
+    <tr>
+      <td>Diện tích HCN</td>
+      <td><input type="number" id="dien_tich_hcn" placeholder="..." readonly></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button onclick="calculateRectangleArea()">Tính diện tích</button></td>
+    </tr>
+  </table>
+  <table align="center">
+    <tr>
+      <th colspan="2">Hình tam giác</th>
+    </tr>
+    <tr>
+      <td>Cạnh đáy</td>
+      <td><input type="number" id="day_tg" placeholder="Nhập chiều dài cạnh đáy"></td>
+    </tr>
+    <tr>
+      <td>Chiều cao</td>
+      <td><input type="number" id="cao_tg" placeholder="Nhập chiều cao"></td>
+    </tr>
+    <tr>
+      <td>Diện tích tam giác</td>
+      <td><input type="number" id="dien_tich_tg" placeholder="..." readonly></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button onclick="calculateTriangleArea()">Tính diện tích</button></td>
+    </tr>
+  </table>
+  <table align="center">
+    <tr>
+      <th colspan="2">Hình vuông</th>
+    </tr>
+    <tr>
+      <td>Cạnh</td>
+      <td><input type="number" id="canh_hv" placeholder="Nhập chiều dài cạnh"></td>
+    </tr>
+    <tr>
+      <td>Diện tích hình vuông</td>
+      <td><input type="number" id="dien_tich_hv" placeholder="..." readonly></td>
+    </tr>
+    <tr>
+      <td colspan="2"><button onclick="calculateSquareArea()">Tính diện tích</button></td>
+    </tr>
+  </table>
+</body>
+</html>
